@@ -6,7 +6,7 @@ export default function Home() {
       <section className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span className="text-indigo-600">Suraj Thapa</span></h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I{"'"}m <span className="text-indigo-600">Suraj Thapa</span></h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">Developer</h2>
             <p className="text-lg mb-8 text-gray-600">
               I create beautiful, responsive websites with modern technologies like Next.js and Tailwind CSS.
