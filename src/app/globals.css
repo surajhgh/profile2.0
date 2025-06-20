@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes float {
+  0% {
+    transform: translateX(var(--start));
+  }
+  50% {
+    transform: translateX(calc(var(--start) + var(--distance)));
+  }
+  100% {
+    transform: translateX(var(--start));
+  }
+}
+
+.cloud-animate {
+  animation: float var(--duration) linear infinite;
+  animation-delay: var(--delay);
+  will-change: transform;
+}
