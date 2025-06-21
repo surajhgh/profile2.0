@@ -26,8 +26,8 @@ export default function Home() {
   <Image
     src="/suraj.webp" 
     alt="Suraj's portfolio picture"
-    width={900}
-    height={1200}
+    width={60}
+    height={120}
     priority={true} // If this is above-the-fold image
   
     quality={85} // Reduces file size while maintaining quality
