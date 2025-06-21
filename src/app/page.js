@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="py-12">
       <section className="container mx-auto px-4 py-12">
-       <div className="flex flex-col md:flex-row items-center">
+<div className="flex flex-col md:flex-row items-center">
   <div className="md:w-1/2 mb-8 md:mb-0">
     <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I am <span className="text-indigo-600">Suraj Thapa</span></h1>
     <h2 className="text-2xl md:text-3xl font-semibold mb-6">Developer</h2>
@@ -25,8 +25,8 @@ export default function Home() {
       <Image
         src="/suraj.webp"
         alt="Suraj Thapa portrait"
-        
-       
+        fill
+        className="object-cover"
         quality={85}
         priority
       />
