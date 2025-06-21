@@ -9,7 +9,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I am <span className="text-indigo-600">Suraj Thapa</span></h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">Developer</h2>
             <p className="text-lg mb-8 text-gray-600">
-              I create beautiful, responsive websites with modern technologies like Next.js and Tailwind CSS.
+              I create beautiful, responsive websites with modern technologies like Next and Tailwind CSS.
             </p>
             <div className="flex space-x-4">
               <Link href="/portfolio" className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition">
@@ -28,9 +28,7 @@ export default function Home() {
     alt="Suraj's portfolio picture"
     width={6}
     height={12}
-    priority={true} // If this is above-the-fold image
   
-    quality={85} // Reduces file size while maintaining quality
    
   />
 </div>
