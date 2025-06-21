@@ -29,7 +29,7 @@ export default function Home() {
     width={900}
     height={1200}
     priority={true} // If this is above-the-fold image
-    className="object-cover w-full h-full"
+  
     quality={85} // Reduces file size while maintaining quality
    
   />
