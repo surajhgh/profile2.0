@@ -21,7 +21,7 @@ export default function Home() {
     </div>
   </div>
   <div className="md:w-1/2 flex justify-center">
-    <div className="w-64 h-64 md:w-80 md:h-80 bg-indigo-100 rounded-full overflow-hidden relative">
+    <div className="w-10 h-10 md:w-80 md:h-80 bg-indigo-100 rounded-full overflow-hidden relative">
       <Image
         src="/suraj.webp"
         alt="Suraj Thapa portrait"
