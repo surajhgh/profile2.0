@@ -120,4 +120,3 @@ export const blogPosts = [
     `
   }
 ];
-module.exports = { blogPosts };
