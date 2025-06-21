@@ -25,8 +25,8 @@ export default function Home() {
       <Image
         src="/suraj.webp"
         alt="Suraj Thapa portrait"
-        fill
-        className="object-cover"
+        
+       
         quality={85}
         priority
       />
