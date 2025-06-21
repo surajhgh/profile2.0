@@ -22,13 +22,18 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 bg-indigo-100 rounded-full overflow-hidden">
-              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                 <Image
-                  src='/suraj.webp'
-                   alt='suraj portfolio picture'
-                  fill
-                  className="object-cover"
-                  />
+             <div className="w-96 h-80 bg-gray-300 flex items-center justify-center">
+  <Image
+    src="/suraj.webp" 
+    alt="Suraj's portfolio picture"
+    width={900}
+    height={1200}
+    priority={true} // If this is above-the-fold image
+    className="object-cover w-full h-full"
+    quality={85} // Reduces file size while maintaining quality
+   
+  />
+</div>
               </div>
             </div>
           </div>
