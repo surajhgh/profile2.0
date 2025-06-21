@@ -22,16 +22,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 bg-indigo-100  flex rounded-full overflow-hidden">
-             <div className="w-96 h-80 bg-gray-300 flex items-center justify-center">
-  <Image
-    src="ss" 
-    alt="Suraj's portfolio picture"
-    width={6}
-    height={12}
-  
    
-  />
-</div>
             </div>
           </div>
         </div>
