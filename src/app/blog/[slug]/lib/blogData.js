@@ -118,5 +118,87 @@
         redefined, and set free from rules that chain the heart.</code></pre>
       
       `
+    },
+
+    {
+      id: 4,
+      slug: 'on-page-seo-fundamentals',
+      title: 'On-Page SEO Fundamentals for Service Websites',
+      excerpt: 'Learn how to optimize your pages for keywords, users, and Google.',
+      date: 'January 10, 2026',
+      readTime: '9 min read',
+      category: 'SEO',
+      content: `
+        <h2>What Is On-Page SEO?</h2>
+        <p>On-page SEO is everything you do directly on your website to help search engines understand your content and to give users a better experience.</p>
+
+        <h2>Core On-Page Elements</h2>
+        <ul>
+          <li><strong>Title tags</strong> that include your primary keyword and clear value.</li>
+          <li><strong>Meta descriptions</strong> that invite clicks and explain your offer.</li>
+          <li><strong>H1 and subheadings</strong> that structure the content logically.</li>
+          <li><strong>Clean URLs</strong> that are short, readable, and keyword-rich.</li>
+          <li><strong>Internal links</strong> that connect related pages and help crawling.</li>
+        </ul>
+
+        <h2>Content That Matches Search Intent</h2>
+        <p>Before writing, understand what users really want when they search your keyword. For example, someone searching "SEO specialist in Nepal" wants services, trust, and proof of results, not just definitions.</p>
+
+        <h2>Technical Touches</h2>
+        <p>Improve page speed, mobile responsiveness, and core web vitals. A fast site keeps users engaged and supports better rankings.</p>
+      `
+    },
+
+    {
+      id: 5,
+      slug: 'off-page-seo-and-link-building',
+      title: 'Off-Page SEO and Smart Link Building Strategies',
+      excerpt: 'How to build authority with safe, long-term off-page SEO.',
+      date: 'January 11, 2026',
+      readTime: '8 min read',
+      category: 'SEO',
+      content: `
+        <h2>What Is Off-Page SEO?</h2>
+        <p>Off-page SEO includes all activities done outside your website to increase your authority and trust in the eyes of search engines.</p>
+
+        <h2>Why Backlinks Matter</h2>
+        <p>Backlinks are links from other sites to yours. When relevant, trustworthy sites link to you, they act like votes of confidence for your content.</p>
+
+        <h2>Safe Link Building Ideas</h2>
+        <ul>
+          <li><strong>Guest posting</strong> on relevant blogs with real audiences.</li>
+          <li><strong>Business directories</strong> and local listings that match your niche.</li>
+          <li><strong>Partnerships</strong> with brands where you already collaborate in real life.</li>
+          <li><strong>Content collaborations</strong> like interviews, case studies, or roundups.</li>
+        </ul>
+
+        <h2>Avoid These Mistakes</h2>
+        <p>Do not buy random backlinks or use spammy automation. Focus on quality, relevance, and real relationships. Your off-page SEO should look natural and support your brand for years.</p>
+      `
+    },
+
+    {
+      id: 6,
+      slug: 'building-backlinks-for-nepali-businesses',
+      title: 'Building Backlinks for Nepali Businesses',
+      excerpt: 'Practical backlink ideas for businesses in Nepal and abroad.',
+      date: 'January 12, 2026',
+      readTime: '7 min read',
+      category: 'SEO',
+      content: `
+        <h2>Backlinks for Local and International Visibility</h2>
+        <p>For Nepali businesses targeting local and global audiences, backlinks help your brand appear on the right searches and build trust beyond social media.</p>
+
+        <h2>Backlink Opportunities</h2>
+        <ul>
+          <li><strong>Local news sites</strong> and blogs that cover business stories.</li>
+          <li><strong>Industry partners</strong> such as training academies, agencies, and SaaS tools you use.</li>
+          <li><strong>Client case studies</strong> where you show the results you delivered.</li>
+          <li><strong>Portfolio links</strong> from platforms that feature your work.</li>
+        </ul>
+
+        <h2>Focusing on Quality Over Quantity</h2>
+        <p>A few strong backlinks from trusted, relevant domains are more powerful than hundreds of weak links. Always choose relevance, authority, and real relationships over shortcuts.</p>
+      `
     }
   ];

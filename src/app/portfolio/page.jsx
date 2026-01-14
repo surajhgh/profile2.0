@@ -26,6 +26,22 @@ export default function Portfolio() {
       tags: ['Firebase', 'React', 'Material UI'],
       image: '/task.png'
     },
+    {
+      id: 4,
+      projectUrl: 'https://www.navatechmedia.com/',
+      title: 'NavaTech & Media',
+      description: 'Technology and media company providing training, web applications, cloud, and digital marketing solutions across Nepal and Australia.',
+      tags: ['SEO', 'Digital Marketing', 'Web Applications'],
+      image: '/navatech.png'
+    },
+    {
+      id: 5,
+      projectUrl: 'https://www.thatadwala.com/',
+      title: 'That Ad Wala',
+      description: 'Creative video production and ad agency focused on storytelling, reels, and result-driven commercial content.',
+      tags: ['SEO', 'Content Strategy', 'Video Marketing'],
+      image: '/thatadwala.png'
+    },
   ]
 
   return (

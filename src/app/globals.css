@@ -17,3 +17,24 @@
   animation-delay: var(--delay);
   will-change: transform;
 }
+
+html.dark-mode body {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+html.dark-mode .bg-gray-50 {
+  background-color: #020617;
+}
+
+html.dark-mode .bg-gray-100 {
+  background-color: #020617;
+}
+
+html.dark-mode .text-gray-900 {
+  color: #e5e7eb;
+}
+
+html.dark-mode .text-gray-600 {
+  color: #cbd5f5;
+}

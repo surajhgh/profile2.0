@@ -2,10 +2,10 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      role: 'Senior Frontend Developer',
-      company: 'TechCorp',
-      period: '2020 - Present',
-      description: 'Leading the frontend development team, implementing new features, and optimizing performance.',
+      role: 'SEO Specialist',
+      company: 'NavaTech & Media',
+      period: '2025 - Present',
+      description: 'Planning and executing on-page and off-page SEO strategies, keyword research, and backlink campaigns to grow organic traffic for clients in Nepal and beyond.',
     },
     {
       id: 2,
