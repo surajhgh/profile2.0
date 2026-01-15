@@ -1,18 +1,18 @@
 
 'use client';
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
+
 
 function Contact() {
   const [isAgreed, setIsAgreed] = useState(false);
-  const [formData, setFormData] = useState({ 
-    name: "", 
-    email: "", 
-    message: "" 
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
   });
-  const [status, setStatus] = useState({ 
-    message: "", 
-    isError: false 
+  const [status, setStatus] = useState({
+    message: "",
+    isError: false
   });
   const [isLoading, setIsLoading] = useState(false);
 
@@ -37,34 +37,19 @@ function Contact() {
     setIsLoading(true);
     setStatus({ message: "", isError: false });
 
-    try {
-      await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "surajthapa",
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_8012awl",
-        {
-          to_name: "Suraj",
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message
-        },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "7NyXxt-W1WUOfNOG3"
-      );
+    // Simulate form submission
+    console.log("Form submitted:", formData);
 
+    // Simulate network delay
+    setTimeout(() => {
       setStatus({
-        message: "Message sent successfully! I'll respond soon.",
+        message: "Message sent (simulated)! I'll respond soon.",
         isError: false
       });
       setFormData({ name: "", email: "", message: "" });
       setIsAgreed(false);
-    } catch (error) {
-      console.error("EmailJS Error:", error);
-      setStatus({
-        message: "Failed to send message. Please email me directly at surajthapalamichanaymagar@gmail.com",
-        isError: true
-      });
-    } finally {
       setIsLoading(false);
-    }
+    }, 1000);
   };
 
   return (
@@ -80,22 +65,22 @@ function Contact() {
               hello! I'm Suraj Thapalamichanay Magar, a passionate web developer.
               <br /> i love creating beautiful and functional websites.
               <br /> Feel free to reach out for any inquiries or collaborations.
-            </p> 
+            </p>
             <p className="mt-4 text-gray-600">
               Fill out the form and I will get back to you as soon as possible.
             </p>
             <div className="mt-6 text-left">
               <p className="font-medium">Email me directly:</p>
-              <a 
-                href="mailto:surajthapalamichanaymagar@gmail.com" 
+              <a
+                href="mailto:surajthapalamichanaymagar@gmail.com"
                 className="text-blue-600 hover:underline"
               >
-        
+
                 📧surajthapalamichanaymagar@gmail.com
               </a>
             </div>
           </div>
-          
+
           <div>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -109,7 +94,7 @@ function Contact() {
                   required
                 />
               </div>
-              
+
               <div>
                 <input
                   type="email"
@@ -121,7 +106,7 @@ function Contact() {
                   required
                 />
               </div>
-              
+
               <div>
                 <textarea
                   name="message"
@@ -133,7 +118,7 @@ function Contact() {
                   required
                 ></textarea>
               </div>
-              
+
               <div className="flex items-start">
                 <input
                   type="checkbox"
@@ -146,15 +131,14 @@ function Contact() {
                   I agree to the <a href="/terms" className="text-blue-600 hover:underline">Terms and Conditions</a>
                 </label>
               </div>
-              
+
               <button
                 type="submit"
                 disabled={!isAgreed || isLoading}
-                className={`w-full py-3 px-6 rounded-md text-white font-medium transition-colors ${
-                  !isAgreed || isLoading 
-                    ? 'bg-gray-400 cursor-not-allowed' 
-                    : 'bg-blue-600 hover:bg-blue-700'
-                }`}
+                className={`w-full py-3 px-6 rounded-md text-white font-medium transition-colors ${!isAgreed || isLoading
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-blue-600 hover:bg-blue-700'
+                  }`}
               >
                 {isLoading ? (
                   <span className="flex items-center justify-center gap-2">
@@ -168,13 +152,12 @@ function Contact() {
                   'Submit Message'
                 )}
               </button>
-              
+
               {status.message && (
-                <div className={`p-3 rounded-md ${
-                  status.isError 
-                    ? 'bg-red-100 text-red-700' 
-                    : 'bg-green-100 text-green-700'
-                }`}>
+                <div className={`p-3 rounded-md ${status.isError
+                  ? 'bg-red-100 text-red-700'
+                  : 'bg-green-100 text-green-700'
+                  }`}>
                   {status.message}
                 </div>
               )}
